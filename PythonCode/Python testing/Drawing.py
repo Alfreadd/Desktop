@@ -30,7 +30,7 @@ arcade.draw_arc_filled(300, 350, 500, 500, arcade.csscolor.KHAKI, 0, 180)
 arcade.draw_arc_filled(250, 250, 155, 60, arcade.csscolor.DARK_RED, 180, 360)
 arcade.draw_rectangle_filled(253, 300, 6, 100, arcade.csscolor.BLACK)
 arcade.draw_triangle_filled(250,250,180,250,250,350, arcade.csscolor.WHITE)
-arcade.draw_triangle_filled(255,250,320,250,255,350, arcade.csscolor.WHITE)
+arcade.draw_triangle_filled(255,250,320,250,255,350, arcade.csscolor.WHITE) 
 
 #drawing text
 #('THE SS BOAT')
