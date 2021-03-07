@@ -8,25 +8,33 @@ This is a program designed to genarate a qutoe based on the emotional state inpu
 
 # Output a welcome message.
 print()
-print("#############")
-print("#           #")
-print("#  Welcome  #")
-print("#           #")
-print("#############")
+print("###########################")
+print("##           ##          ##")
+print("##  Welcome  ## Stranger ##")
+print("##           ##          ##")
+print("###########################")
 
 run_feelings = True
 
 # Starting the loop.
 while run_feelings: 
-            
+ print()           
  print("You can choose from the following list of feelings. Which one best matches your mood right now?")
  print()
  # Output a feeling
+ print("===============================")
  print("A: I Feel a bit worried.")
+ print("===============================")
  print("B: I'm feel Anxious")
+ print("===============================")
  print("C: I'm feeling confused")
+ print("===============================")
  print("D: I'm feeling Scared")
+ print("===============================")
  print("E: I'm feeling Happy")
+ print("===============================")
+ print("To quit Press Q")
+ print("===============================")
  print()
 
  # Output instructions
