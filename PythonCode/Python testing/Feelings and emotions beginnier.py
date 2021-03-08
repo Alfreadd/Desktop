@@ -7,6 +7,11 @@ This is a program designed to genarate a qutoe based on the emotional state inpu
 #
 
 # Output a welcome message.
+
+import random
+
+random.randint(1,5)
+
 print()
 print("###########################")
 print("##           ##          ##")
@@ -42,11 +47,11 @@ while run_feelings:
  
  # Creates a variable called feeling that stores the users input.
  # Notice the space. It's important.
- feeling = input("Choose a feeling from the options (A,B,C,D,E): ")
+ feeling = input("Choose a feeling from the options (A,B,C,D,E) Press Q to quit: ")
  print("-------------------------------------------------------------------------------------------")
  
  # Process the user input.
- if feeling == "A":
+ if feeling == "A" or "a":
     print()
     print('###########################################################################################')
     print("You can destroy your now, by worrying about tomorrow.")
@@ -86,6 +91,7 @@ while run_feelings:
     print("Boom Sumo")
     print('###########################################################################################')
     print()
+
 
  elif feeling == "Q":
         print("OK, it was fun while it lasted.")
